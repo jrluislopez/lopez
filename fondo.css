@@ -1,0 +1,53 @@
+.fondo{
+        background-color: white;
+}
+.titulo{
+font-family: arial;
+font-size: 36px;
+color: #d853bb;
+text-align: center;
+}
+
+.gambit{
+        width: 250px;
+        height: 325px;
+          border-image: linear-gradient(to right, blue 20%, green 20%, green 40%, purple 40%, purple 60%, orange 60%, orange 80%, red 80%) 1;
+
+        position: absolute;
+        top: 200px;
+        left:100px;
+        border-top: 5px solid;
+        box-shadow: 15px 15px 15px pink;
+}
+.texto{
+        font-family: 'geogia', monospace;
+        font-size: 20px;
+        color: white;
+        width: 300px;
+        height: 300px;
+        border: 5px solid #333669;
+        border-radius: 10px;
+
+}
+h1{
+    color: white;
+   font-family: 'georgia', monospace;
+}
+h2{
+    color: black;
+   font-family: 'georgia', monospace;
+
+}
+.fond{
+    color: white;
+   font-family: 'georgia', monospace;
+
+
+}
+html{
+    background-image: url(fondoo.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+                <html>
+                <head>
+                        <title>Avengers</title>
+                        <body background="fondoo.jpg" style="background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+
+                </head>
+                <link rel="stylesheet" type="text/css" href="fondo.css">
+                <body class="fondo">
+                <div class="titulo" id="fondo">
+                    <link rel="icon" type="icon" href="fondoo.png">
+
+                 </head>
+                <header  style="background-color: rgb(30, 25, 89);"> 
+
+               <h1><center>Los vengadores unidos</center></h1> 
+               <font size="4">
+                
+               </header>
+               
+                </div>
+                
+
+                <center><h1>Registra a tu vengador favorito</h1></center>
+                
+                 
+        
+                </div>
+              
+                <form method="POST" action="./local.php" >
+                      
+                       <center><label for='nombre'><h2>Nombre clave:</h2></label>
+                        <input type="text" name="nombre" placeholder=""></input><br>
+
+                        <label for='nombrereal'><h2>Nombre real:</h2></label>
+                        <input type="text" name="nombrereal" placeholder=""></input><br>
+
+                        <label for='poderes'><h2>Poderes:</h2></label>
+                        <input type="text" name="poderes" placeholder=""></input><br>
+
+                        <label for='primeraaparicion'><h2>Primera aparicion:</h2></label>
+                        <input type="text" name="primeraaparicion" placeholder=""></input><br>
+
+                        <input type="submit" name="submit" value="Introducir"></center> 
+
+                </form>
+
+
+                <form action="personajes.php" method="POST">
+
+                      <center><label for="id">ID DEL PERSONAJE:</label>
+                        <input type="text" name="id" id="id">
+                        <input type="submit" name="submit" id="submit" value="Ingresar"></center>  
+
+                </form>
+                        <a href=local.php>Registrados</a>
+                </body>
+                </html>
